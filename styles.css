@@ -1,0 +1,96 @@
+/* Style for the header */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f9f9f9; /* Title text color remains white */
+}
+
+/* Style for the input container */
+#inputContainer {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black; /* Change text color to black for labels */
+}
+
+/* Style for input fields */
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black; /* Text color remains black */
+    transition: border-color 0.3s, background-color 0.3s; /* Add transition for smooth effect */
+}
+
+/* Add hover effect */
+input[type="number"]:hover,
+input[type="text"]:hover {
+    border-color: #007bff; /* Change border color on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+
+
+/* Style for the "Generate Inputs" button */
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: transparent; /* Make the button transparent */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style for number of test cases */
+/* Style for the "Number of Test Cases:" input label */
+label[for="numTestCases"] {
+    color: white; /* Change text color to white */
+}
+
+
+/* Style for result table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: white; /* Change text color to white */
+    border-spacing: 0; /* Remove spacing between table cells */
+}
+
+/* Style for table header */
+table th {
+    background-color: #007bff;
+    color: white; /* Header text color remains white */
+    font-weight: bold;
+    border: 1px solid white; /* Add border around header cells */
+}
+
+/* Style for table rows */
+table tr {
+    border: 1px solid white; /* Add border around table rows */
+}
+
+/* Style for table cells */
+table td {
+    text-align: center;
+    border: 1px solid white; /* Add border around table cells */
+    font-weight: bold; /* Increase font thickness to bold */
+}
+
